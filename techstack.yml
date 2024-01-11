@@ -1,0 +1,893 @@
+repo_name: GarthDB/commitlint
+report_id: c68a859b788abcbae8fc6aa9d41740a1
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-11T00:12:28+00:00'
+requested_by: renovate[bot]
+provider: github
+branch: master
+detected_tools_count: 65
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/GarthDB/commitlint
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/GarthDB/commitlint
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/@commitlint/config-lerna-scopes/package.json
+  detection_source: "@commitlint/config-lerna-scopes/package.json"
+  last_updated_by: mario.nebl@sinnerschrader.com
+  last_updated_on: 2017-07-07 15:57:56.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/@commitlint/cli/package.json
+  detection_source: "@commitlint/cli/package.json"
+  last_updated_by: mario.nebl@sinnerschrader.com
+  last_updated_on: 2017-07-07 15:57:56.000000000 Z
+- name: ServiceStack
+  description: 'A configuration free, code-first, light-weight framework '
+  website_url: https://servicestack.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2773/JuTVEkWX_400x400.jpg
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/@packages/utils/package.json
+  detection_source: "@packages/utils/package.json"
+  last_updated_by: mario.nebl@sinnerschrader.com
+  last_updated_on: 2017-07-09 18:38:39.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-04-02 07:05:16.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/GarthDB/commitlint
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: mario.nebl@sinnerschrader.com
+  last_updated_on: 2017-07-07 15:57:56.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/GarthDB/commitlint
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Mario Nebl
+  last_updated_on: 2016-02-14 08:12:32.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/@commitlint/config-lerna-scopes/package.json
+  detection_source: "@commitlint/config-lerna-scopes/package.json"
+  last_updated_by: mario.nebl@sinnerschrader.com
+  last_updated_on: 2017-07-07 15:57:56.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-02-24 10:27:38.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/.yarnrc
+  detection_source: ".yarnrc"
+  last_updated_by: Mario Nebl
+  last_updated_on: 2017-10-14 18:44:47.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mario Nebl
+  last_updated_on: 2016-02-14 08:12:32.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 6.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@alias/commitlint-config-lerna-scopes/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-01-12 14:36:55.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/GarthDB/commitlint
+  detection_source: Repo Metadata
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/@commitlint/cz-commitlint/package.json
+  detection_source: "@commitlint/cz-commitlint/package.json"
+  last_updated_by: Curly Brackets
+  last_updated_on: 2021-04-29 05:44:59.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/@commitlint/cli/fixtures/husky/integration/package.json
+  detection_source: "@commitlint/cli/fixtures/husky/integration/package.json"
+  last_updated_by: hannes
+  last_updated_on: 2021-02-23 01:53:13.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-14 10:04:08.000000000 Z
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  version: 17.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/@alias/commitlint/package.json
+  detection_source: "@alias/commitlint/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: "@commitlint/config-angular"
+  description: Shareable commitlint config enforcing the angular commit convention
+  package_url: https://www.npmjs.com/@commitlint/config-angular
+  version: 17.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16924/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/@alias/commitlint-config-angular/package.json
+  detection_source: "@alias/commitlint-config-angular/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: "@commitlint/prompt"
+  description: Commitizen prompt using commitlint.config.js
+  package_url: https://www.npmjs.com/@commitlint/prompt
+  version: 17.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18609/default_692fa98ff9b95f0015c4ef03f3d469c1566bce03.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/@commitlint/prompt-cli/package.json
+  detection_source: "@commitlint/prompt-cli/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  version: 11.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/read/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: "@types/inquirer"
+  description: TypeScript definitions for inquirer
+  package_url: https://www.npmjs.com/@types/inquirer
+  version: 6.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16530/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cz-commitlint/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: escapedcat
+  last_updated_on: 2022-12-14 16:18:00.000000000 Z
+- name: "@types/minimist"
+  description: TypeScript definitions for minimist
+  package_url: https://www.npmjs.com/@types/minimist
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16976/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/read/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cli/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: "@types/semver"
+  description: TypeScript definitions for semver
+  package_url: https://www.npmjs.com/@types/semver
+  version: 7.3.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/is-ignored/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: "@types/tmp"
+  description: TypeScript definitions for tmp
+  package_url: https://www.npmjs.com/@types/tmp
+  version: 0.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17575/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@packages/test-environment/package.json"
+  last_updated_by: Andrew Luca
+  last_updated_on: 2021-10-13 10:28:27.000000000 Z
+- name: "@types/yargs"
+  description: TypeScript definitions for yargs
+  package_url: https://www.npmjs.com/@types/yargs
+  version: 16.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cli/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.54.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-14 10:04:08.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.54.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-14 10:04:08.000000000 Z
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 6.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/config-validator/package.json"
+  last_updated_by: Armano
+  last_updated_on: 2021-11-29 01:45:13.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cz-commitlint/package.json"
+  last_updated_by: Curly Brackets
+  last_updated_on: 2021-04-29 05:44:59.000000000 Z
+- name: commitizen
+  description: Git commit, but play nice with conventions
+  package_url: https://www.npmjs.com/commitizen
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16008/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cz-commitlint/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: cosmiconfig
+  description: Find and load configuration from a package.json property
+  package_url: https://www.npmjs.com/cosmiconfig
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17133/default_aae1698f13b22e457dce8faa3612b71379cf7a48.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/load/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2023-02-17 15:34:09.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Julian Scheid
+  last_updated_on: 2022-05-24 10:30:42.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-14 10:04:08.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.27.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-14 10:04:08.000000000 Z
+- name: eslint-plugin-jest
+  description: Eslint rules for Jest
+  package_url: https://www.npmjs.com/eslint-plugin-jest
+  version: 27.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-14 10:04:08.000000000 Z
+- name: execa
+  description: Process execution for humans
+  package_url: https://www.npmjs.com/execa
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@alias/commitlint/package.json"
+  last_updated_by: Armano
+  last_updated_on: 2021-01-11 07:25:18.000000000 Z
+- name: find-up
+  description: Find a file or directory by walking up parent directories
+  package_url: https://www.npmjs.com/find-up
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17030/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/top-level/package.json"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2020-08-12 01:21:20.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cli/package.json"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-12-21 17:08:43.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.1.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/config-lerna-scopes/package.json"
+  last_updated_by: Senja
+  last_updated_on: 2022-12-15 15:43:46.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cli/fixtures/husky/integration/package.json"
+  last_updated_by: hannes
+  last_updated_on: 2021-02-23 01:53:13.000000000 Z
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 8.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/prompt-cli/package.json"
+  last_updated_by: escapedcat
+  last_updated_on: 2021-11-06 05:37:18.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-02-14 10:04:08.000000000 Z
+- name: lodash.camelcase
+  description: The lodash method `_.camelCase` exported as a module
+  package_url: https://www.npmjs.com/lodash.camelcase
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16436/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/ensure/package.json"
+  last_updated_by: Azat S
+  last_updated_on: 2022-11-07 08:58:17.000000000 Z
+- name: lodash.isfunction
+  description: The Lodash method `_.isFunction` exported as a module
+  package_url: https://www.npmjs.com/lodash.isfunction
+  version: 3.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17147/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cli/package.json"
+  last_updated_by: Azat S
+  last_updated_on: 2022-11-07 08:58:17.000000000 Z
+- name: lodash.isplainobject
+  description: The lodash method `_.isPlainObject` exported as a module
+  package_url: https://www.npmjs.com/lodash.isplainobject
+  version: 4.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17120/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cz-commitlint/package.json"
+  last_updated_by: Azat S
+  last_updated_on: 2022-11-07 08:58:17.000000000 Z
+- name: lodash.kebabcase
+  description: The lodash method `_.kebabCase` exported as a module
+  package_url: https://www.npmjs.com/lodash.kebabcase
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17755/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/ensure/package.json"
+  last_updated_by: Azat S
+  last_updated_on: 2022-11-07 08:58:17.000000000 Z
+- name: lodash.merge
+  description: The Lodash method `_.merge` exported as a module
+  package_url: https://www.npmjs.com/lodash.merge
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16314/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cli/package.json"
+  last_updated_by: Azat S
+  last_updated_on: 2022-11-07 08:58:17.000000000 Z
+- name: lodash.mergewith
+  description: The Lodash method `_.mergeWith` exported as a module
+  package_url: https://www.npmjs.com/lodash.mergewith
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18656/default_f228716e0e2054736b7cef03e48c321d920064dc.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/resolve-extends/package.json"
+  last_updated_by: Azat S
+  last_updated_on: 2022-11-07 08:58:17.000000000 Z
+- name: lodash.uniq
+  description: The lodash method `_.uniq` exported as a module
+  package_url: https://www.npmjs.com/lodash.uniq
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17115/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/load/package.json"
+  last_updated_by: Azat S
+  last_updated_on: 2022-11-07 08:58:17.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 1.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/read/package.json"
+  last_updated_by: Morris Winkler
+  last_updated_on: 2022-08-25 02:12:41.000000000 Z
+- name: pkg-dir
+  description: Find the root directory of a Node.js project or npm package
+  package_url: https://www.npmjs.com/pkg-dir
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18021/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@packages/test/package.json"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2020-10-17 08:33:37.000000000 Z
+- name: read-pkg
+  description: Read a package.json file
+  package_url: https://www.npmjs.com/read-pkg
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17758/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@packages/utils/package.json"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-02-08 09:00:00.000000000 Z
+- name: require-from-string
+  description: Require module from string
+  package_url: https://www.npmjs.com/require-from-string
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18577/default_3a3bdb19c47f508090aa45abc5a396ca16544447.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@packages/utils/package.json"
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-17 12:25:20.000000000 Z
+- name: resolve-from
+  description: Resolve the path of a module like `require.resolve
+  package_url: https://www.npmjs.com/resolve-from
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17861/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cli/package.json"
+  last_updated_by: Cedric van Putten
+  last_updated_on: 2020-07-13 03:16:38.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 5.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/config-lerna-scopes/package.json"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-12-16 09:58:20.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.7.2
+- name: tar-fs
+  description: Filesystem bindings for tar-stream
+  package_url: https://www.npmjs.com/tar-fs
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17431/default_f52a9ea80d1a46080182faf142d844b81ca11aa6.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@packages/utils/package.json"
+  last_updated_by: Armano
+  last_updated_on: 2021-01-06 04:57:58.000000000 Z
+- name: tmp
+  description: Temporary file and directory creator
+  package_url: https://www.npmjs.com/tmp
+  version: 0.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16251/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@packages/test-environment/package.json"
+  last_updated_by: Armano
+  last_updated_on: 2020-02-06 03:29:01.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/load/package.json"
+  last_updated_by: Vighnesh Raut
+  last_updated_on: 2023-01-09 09:55:01.000000000 Z
+- name: word-wrap
+  description: Wrap words to a specified length
+  package_url: https://www.npmjs.com/word-wrap
+  version: 1.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18154/default_63cbe387694d6d77dde61448de98c6bd2a9b18de.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cz-commitlint/package.json"
+  last_updated_by: Curly Brackets
+  last_updated_on: 2021-05-03 09:05:54.000000000 Z
+  vulnerabilities:
+  - name: word-wrap vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2023-26115
+    cve_url: https://github.com/advisories/GHSA-j8xg-fqg3-53r7
+    detected_date: Jun 28
+    severity: moderate
+    first_patched: 1.2.4
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 15.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/GarthDB/commitlint/blob/master/yarn.lock
+  detection_source: "@commitlint/cli/package.json"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-05-24 07:38:30.000000000 Z
