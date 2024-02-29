@@ -2,7 +2,7 @@ repo_name: GarthDB/commitlint
 report_id: c68a859b788abcbae8fc6aa9d41740a1
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-11T00:12:28+00:00'
+timestamp: '2024-02-29T19:26:39+00:00'
 requested_by: renovate[bot]
 provider: github
 branch: master
@@ -58,7 +58,7 @@ tools:
   last_updated_by: mario.nebl@sinnerschrader.com
   last_updated_on: 2017-07-07 15:57:56.000000000 Z
 - name: ServiceStack
-  description: 'A configuration free, code-first, light-weight framework '
+  description: A configuration free, code-first, light-weight framework
   website_url: https://servicestack.net/
   open_source: false
   hosted_saas: false
@@ -142,7 +142,7 @@ tools:
   last_updated_by: mario.nebl@sinnerschrader.com
   last_updated_on: 2017-07-07 15:57:56.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.8.4
   license: MIT
